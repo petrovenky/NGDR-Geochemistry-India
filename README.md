@@ -8,8 +8,8 @@ The repository currently contains **soil C-horizon** and **stream sediment** geo
 
 | Sample Type     | Coverage | Records |
 | --------------- | -------- | ------: |
-| Soil C-Horizon  | India    | 45,000+ |
-| Stream Sediment | India    | 50,000+ |
+| Soil C-Horizon  | India    | 39324 |
+| Stream Sediment | India    | 450575 |
 
 Detailed state-wise sample counts, geographic coverage, sampling density, and dataset sizes are provided in the `metadata/` directory.
 
