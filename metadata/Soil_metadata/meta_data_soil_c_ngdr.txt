@@ -1,0 +1,91 @@
+# NGDR SOIL C-HORIZON GEOCHEMISTRY DATASET
+
+Source:
+National Geoscience Data Repository (NGDR), Geological Survey of India (GSI)
+
+Dataset:
+Soil C-Horizon Geochemistry
+
+Download Date:
+16-09-2026
+
+Coverage:
+India — state/UT-wise datasets
+
+Raw Data:
+31 state/UT ZIP archives downloaded from NGDR.
+
+Consolidated Dataset:
+SOIL_C_HORIZON_STATE_INDIA.parquet
+
+Consolidated File Size:
+4,921,683 bytes (~4.92 MB)
+
+## STATE-WISE FILE INVENTORY
+
+State/UT                         File Size (bytes)
+
+Andhra Pradesh                  715,862
+Arunachal Pradesh                75,682
+Assam                            220,485
+Bihar                            130,181
+Chandigarh                       1,706
+Chhattisgarh                     664,988
+Delhi                             1,972
+Goa                               5,753
+Gujarat                           328,348
+Haryana                           26,084
+Himachal Pradesh                 155,070
+Jammu & Kashmir                   48,669
+Jharkhand                         359,834
+Karnataka                         680,676
+Kerala                            137,833
+Madhya Pradesh                  1,262,446
+Maharashtra                       813,901
+Manipur                            67,846
+Meghalaya                          96,285
+Mizoram                             4,137
+Nagaland                           58,315
+Odisha                             409,686
+Punjab                             177,556
+Rajasthan                        1,130,945
+Sikkim                               8,002
+Tamil Nadu                         190,825
+Telangana                          173,594
+Tripura                              28,812
+Uttarakhand                        178,292
+Uttar Pradesh                      206,786
+West Bengal                        213,177
+
+## STORAGE
+
+RAW:
+State-wise ZIP archives retained unchanged for provenance and
+future re-processing.
+
+WORKING:
+SOIL_C_HORIZON_STATE_INDIA.parquet
+
+The Parquet dataset is intended as the primary working copy for
+efficient querying, GIS processing, statistical analysis and
+future AI/ML workflows.
+
+## FUTURE USE
+
+* Geochemical analysis and anomaly mapping
+* GIS/spatial analysis
+* Integration with geological/geophysical datasets
+* Mineral prospectivity mapping
+* AI/ML predictive modelling
+* Integration with stream-sediment and other geochemical datasets
+
+## PROCESSING STATUS
+
+Downloaded and consolidated into Parquet.
+
+Original NGDR data retained.
+No analytical values intentionally modified.
+
+Metadata Version: 1.0
+Created: 16-09-2026
+===================

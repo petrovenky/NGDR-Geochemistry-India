@@ -1,0 +1,116 @@
+# NGDR STREAM-SEDIMENT GEOCHEMISTRY DATASET
+
+Source:
+National Geoscience Data Repository (NGDR), Geological Survey of India (GSI)
+
+Dataset:
+Stream-Sediment Geochemistry
+
+Programme / Context:
+National Geochemical Mapping (NGCM)
+
+Download Date:
+16-09-2026
+
+Coverage:
+India — state/UT-wise datasets
+
+Raw Data:
+34 state/UT ZIP archives downloaded from NGDR.
+
+Consolidated Dataset:
+STREAM_SEDIMENTS_INDIA.parquet
+
+Consolidated File Size:
+116,795,909 bytes (~116.80 MB)
+
+## STATE/UT FILE INVENTORY
+
+State/UT                                      File Size (bytes)
+
+Andhra Pradesh                                8,679,983
+Arunachal Pradesh                               633,877
+Assam                                         2,056,935
+Bihar                                         1,713,695
+Chandigarh                                        9,084
+Chhattisgarh                                  4,776,689
+Delhi                                            38,786
+Goa                                             157,569
+Gujarat                                       7,312,552
+Haryana                                         598,020
+Himachal Pradesh                              1,365,131
+Jammu & Kashmir                                 888,451
+Jharkhand                                     3,968,622
+Karnataka                                    10,852,873
+Kerala                                        1,964,239
+Ladakh                                          289,200
+Madhya Pradesh                               12,199,603
+Maharashtra                                    8,478,549
+Manipur                                         701,114
+Meghalaya                                     1,036,873
+Mizoram                                         936,789
+Nagaland                                        773,988
+Odisha                                         7,142,520
+Puducherry                                       29,388
+Punjab                                           647,245
+Rajasthan                                     13,465,904
+Sikkim                                            87,057
+Tamil Nadu                                     6,807,361
+Telangana                                      6,141,822
+Dadra & Nagar Haveli and Daman & Diu             12,210
+Tripura                                          507,153
+Uttarakhand                                    1,736,532
+Uttar Pradesh                                  2,547,859
+West Bengal                                    1,981,798
+
+## STORAGE
+
+RAW:
+State/UT-wise ZIP archives retained unchanged for provenance and
+future re-processing.
+
+WORKING:
+STREAM_SEDIMENTS_INDIA.parquet
+
+The consolidated Parquet file is maintained as the primary working
+dataset for efficient querying, spatial analysis, geochemical analysis,
+GIS processing and future AI/ML workflows.
+
+## DATA DESCRIPTION
+
+Stream-sediment samples form a principal sampling medium of the
+National Geochemical Mapping (NGCM) programme.
+
+GSI documentation describes systematic stream-sediment sampling at
+approximately 2 km × 2 km unit-cell scale for regional geochemical
+mapping.
+
+The NGCM geochemical database is intended to characterize regional
+elemental distributions and support applications including mineral
+resource targeting and other geoscientific/environmental studies.
+
+GSI documentation indicates analysis for up to 66 elements.
+
+## FUTURE USE
+
+* Regional geochemical mapping
+* Element distribution and anomaly analysis
+* Geochemical background estimation
+* GIS/spatial analysis
+* Integration with geological and geophysical datasets
+* Mineral prospectivity mapping
+* AI/ML predictive modelling
+* Integration with Soil C-Horizon geochemistry
+* Multivariate geochemical analysis
+
+## PROCESSING STATUS
+
+Downloaded and consolidated into Parquet.
+
+Original NGDR ZIP files retained as RAW source data.
+
+No analytical values intentionally modified.
+
+Metadata Version: 1.0
+Created: 16-09-2026
+===================
